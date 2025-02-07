@@ -1,1 +1,139 @@
 /* Your styles here */
+
+body {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1,
+h3 {
+  font-family: "Montserrat", serif;
+  color: #25a2c3;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1;
+  padding-top: 35px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  line-height: 1.65;
+  margin: 0.8em;
+  padding-bottom: 1em;
+}
+
+/* Header */
+header div:first-child {
+  background-color: black;
+}
+
+header div img {
+  margin: 30px 0;
+  width: 25%;
+}
+
+header div:nth-child(2) {
+  background-image: url(../images/banner.jpg);
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+}
+
+article img {
+  border-radius: 50%;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+main section:first-of-type {
+  background-color: #f04c2f;
+  color: white;
+  font-size: 35px;
+  padding-top: 40px;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+}
+
+main section:first-of-type p {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+main section:first-of-type h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main section:first-of-type p:nth-child(4) {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+main section:nth-of-type(n + 2):nth-of-type(-n + 5) {
+  border: #dee1e3 solid 1px;
+  margin: 20px;
+}
+
+main section:nth-of-type(n + 2):nth-of-type(-n + 5) img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #498fde;
+  padding: 50px;
+}
+
+footer h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+footer a {
+  display: block;
+  margin: 5px;
+  color: white;
+}
+
+footer a:nth-child(4) {
+  text-decoration: none;
+}
+
+footer hr {
+  margin: 40px 80px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}
+
+footer span {
+  text-decoration: underline;
+}
